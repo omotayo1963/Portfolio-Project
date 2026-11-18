@@ -3,281 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adeniyi Muizudeen: Program Analyst at the Defence Space Administration, Abuja, with an MSc in Computer Science and a focus on cybersecurity, network security and secure applications.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>My Portfolio</title>
+    <title>Adeniyi Muizudeen | Program Analyst &amp; Cybersecurity Professional</title>
     <script src="https://kit.fontawesome.com/6b0323ea3a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
         <div class="container">
             <nav>
-                <img src="images/my logo.png" class="logo">
+                <img src="images/my_logo.png" class="logo" alt="CodeWithMe Tech logo">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li> 
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p><span>Front End Developer</span></p>
-                <h1>Hi, I`m <span>Adeniyi</span><br>
+                <p><span>Program Analyst | Cybersecurity</span></p>
+                <h1>Hi, I'm <span>Adeniyi</span><br>
                 <span>Muizudeen</span> from Nigeria</h1>
             </div>
         </div>
     </div>
-    <!---------About page Begins here----------------->
+
+    <!---------About----------------->
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/users-bg.png" alt="">
+                    <img src="images/users-bg.png" alt="Portrait of Adeniyi Muizudeen">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p class="about-sub-title">I'm a highly motivated and versatile professional with a master's degree in Computer Science (Professional) and a B.Sc. (Hons) in Statistics. As a front-end developer, I leverage my expertise in HTML, CSS, JavaScript, and React to create intuitive and engaging user experiences. Beyond the front-end, I'm skilled in data visualization with tools like Tableau and PowerBI, data analysis with Python and SPSS, SAS, and database management with MySQL and Wolfram Lab. My diverse skillset also encompasses network security, software management, and even game testing! I'm a passionate learner and I thrive in collaborative environments, always eager to tackle new challenges and find innovative solutions. Let's work together to build something truly remarkable!
-                    But my skillset extends beyond just technical prowess. I'm a team player, collaborating effectively with cross-functional teams to translate ideas into polished products. My hunger for learning keeps me at the forefront of technology, constantly seeking new tools and best practices to keep my skills razor-sharp.
+                    <p class="about-sub-title">
+                        I'm a Program Analyst at the Defence Space Administration in Abuja, where I support secure systems and applications and apply cybersecurity best practices to protect software and sensitive data. I hold an MSc in Computer Science from the Nigerian Defence Academy Postgraduate School and a BSc (Hons) in Statistics from Ahmadu Bello University, and I'm completing a Space Science and Technology course at the Defence Space School.
+                        <br><br>
+                        Over more than ten years in IT support, network administration and software development, my work has centred on keeping systems secure and available. I have designed and monitored LAN/WAN networks, maintained 99% uptime, written disaster recovery plans and cut security incidents by 20%. My web development and data analysis skills let me build and secure applications end to end.
                     </p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">
-                            Skills
-                        </p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li>
-                                <span>UI/UX Designer
-                                </span><br>Designing Web/App Interfaces
-                            </li>
-                            <li>
-                                <span>Web Development
-                                </span><br> Web App Development
-                            </li>
-                            <li>
-                                <span>App Development</span><br>Building Android/iOS apps
-                            </li>
-                        </ul>
+                            <div class="skill-group"><h4>Cybersecurity</h4><div class="chips"><span>Network and internet security</span><span>Web and email security protocols</span><span>Incident response</span><span>Cybersecurity best practices</span><span>ISO 27001 (information security management)</span><span>Disaster recovery planning</span></div></div>
+                            <div class="skill-group"><h4>Networking and infrastructure</h4><div class="chips"><span>LAN/WAN design and configuration</span><span>Network monitoring and troubleshooting</span><span>System administration</span><span>IT support</span><span>CCTV/camera installation</span></div></div>
+                            <div class="skill-group"><h4>Secure software development</h4><div class="chips"><span>Python</span><span>C++</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>React.js</span><span>Vue.js</span><span>Wolfram Language</span></div></div>
+                            <div class="skill-group"><h4>Data and databases</h4><div class="chips"><span>MySQL</span><span>Microsoft Access</span><span>Power BI</span><span>Pandas</span><span>SAS</span><span>SPSS</span><span>Microsoft Excel</span></div></div>
+                            <div class="skill-group"><h4>Tools</h4><div class="chips"><span>Git</span><span>Visual Studio Code</span><span>CLion</span><span>Microsoft Office 365</span></div></div>
                     </div>
                     <div class="tab-contents" id="experience">
-                        <ul>
-                            <li>
-                                <span>2021-current
-                                </span><br>UI/UX Design Training at ET Institute
-                            </li>
-                            <li>
-                                <span>2019-2021
-                                </span><br> IT Speacialist Officer ET KAEDCO 
-                            </li>
-                            <li>
-                                <span>2016-2017</span><br>IT Officer LOG (Non-Govermental Organization)
-                            </li>
-                        </ul>
+                        <div class="skill-group"><h4>Program Analyst I, Defence Space Administration, Abuja</h4><div class="chips"><span class="date">Dec 2025 – Present</span><span class="long">Apply cybersecurity best practices to protect software applications and sensitive organisational data.</span><span class="long">Build and maintain secure web-based applications and databases that support organisational processes and information management.</span><span class="long">Integrate applications with existing enterprise systems while safeguarding reliability, security and performance.</span><span class="long">Design, develop, test and maintain software that supports Defence Space Administration operations and digital transformation.</span><span class="long">Take part in analysis, design, implementation and deployment using modern programming languages and software engineering best practices.</span><span class="long">Assure software quality through debugging, testing, documentation and version control.</span><span class="long">Work with multidisciplinary teams to gather requirements, troubleshoot issues and deliver enhancements.</span><span class="long">Write technical documentation, user guides and system reports to support maintenance and knowledge transfer.</span><span class="long">Contribute to research and continuous improvement in software development, IT and space-based applications.</span></div></div>
+                        <div class="skill-group"><h4>Non-Financial Transaction Officer / IT Officer, First Bank of Nigeria</h4><div class="chips"><span class="date">Feb 2024 – Apr 2026</span><span>Regulatory and policy compliance</span><span>Financial data analysis and forecasting</span><span>Risk management procedures</span><span>Cross-department process coordination</span><span>Stakeholder reporting</span><span>Project leadership</span></div></div>
+                        <div class="skill-group"><h4>Supervisor (IT and Data), Annur Medical Solutions Ltd.</h4><div class="chips"><span class="date">Nov 2022 – Dec 2023</span><span>99% network uptime</span><span>Security incidents cut by 20%</span><span>Disaster recovery plans</span><span>Staff training on secure IT use</span><span>15% efficiency gain from data reports</span></div></div>
+                        <div class="skill-group"><h4>Graduate Trainee, Loss of Generality</h4><div class="chips"><span class="date">Nov 2021 – Present</span><span>Six-person team building health software with Vue.js</span><span>Game application testing</span><span>Trained new members in Wolfram programming</span></div></div>
+                        <div class="skill-group"><h4>IT Support Officer, Lead Computers Nig. Ltd, Kaduna</h4><div class="chips"><span class="date">May 2012 – Aug 2015</span><span>LAN/WAN design and management</span><span>Web and email security protocols</span><span>System maintenance</span><span>New network installation and documentation</span></div></div>
+                        <p><a class="cv-link" href="images/Adeniyi Muizudeen.pdf" download>Download my CV for the full history</a></p>
                     </div>
                     <div class="tab-contents" id="education">
-                        <ul>
-                            <li>
-                                <span>2016
-                                </span><br>UI/UX Design Training at ET institute
-                            </li>
-                            <li>
-                                <span>2017
-                                </span><br>Bsc Statistics from Ahmadu Bello University
-                            </li>
-                            <li>
-                                <span>2023</span><br>Msc Computer Science professional
-                            </li>
-                        </ul>
+                        <div class="skill-group"><h4>Space Science and Technology Course</h4><div class="chips"><span class="date">2025 – 2026</span><span>Defence Space School, Orogun</span></div></div>
+                        <div class="skill-group"><h4>MSc Computer Science</h4><div class="chips"><span class="date">2023 – 2025</span><span>Nigerian Defence Academy Postgraduate School</span></div></div>
+                        <div class="skill-group"><h4>BSc (Hons) Statistics</h4><div class="chips"><span class="date">2013 – 2017</span><span>Ahmadu Bello University, Zaria</span></div></div>
+                        <div class="skill-group"><h4>Senior School Certificate</h4><div class="chips"><span class="date">2006 – 2012</span><span>Ansar-ud-Deen College, Kaduna</span></div></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> 
- <!---------About page Ends here -------------->
+    </div>
 
- <!---------Services page Begin+s here -------------->
+    <!---------Services-------------->
     <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Cybersecurity</h2>
+                    <p>
+                        I help protect systems and data through network and internet security, web and email security protocols, incident response and disaster recovery planning.
+                    </p>
+                    <a href="#contact">Discuss your security needs</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Network and IT Infrastructure</h2>
+                    <p>
+                        I design, configure and monitor LAN/WAN networks, troubleshoot faults and plan upgrades, so your systems stay online and protected.
+                    </p>
+                    <a href="#contact">Get in touch</a>
+                </div>
+                <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Responsive Web Design</h2>
+                    <h2>Secure Web Development</h2>
                     <p>
-                        Your website lives across screens, and so should its design. I build websites that adapt flawlessly to desktops, tablets, and mobiles, ensuring a consistent and delightful experience for every visitor, regardless of their device.
+                        I build responsive, secure web applications and databases with HTML, CSS, JavaScript, React and Vue, with data analysis in Power BI and Python where it helps.
                     </p>
-                    <a href="#">Explore my web design portfolio</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-chart-line"></i>
-                    <h2>Data Analytics</h2>
-                    <p>
-                        Transform your data from a sea of numbers into actionable insights. I specialize in [list specific data analysis services you offer] to help you unlock powerful insights that drive informed decisions and exceptional results.
-                    </p>
-                    <a href="#">Start building your dream app</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>Custom App Development</h2>
-                    <p>
-                        Bring your app ideas to life with intuitive, user-friendly designs that seamlessly bridge the gap between functionality and engagement. I specialize in crafting apps that not only solve problems but deliver exceptional user experiences across various platforms.
-                    </p>
-                    <a href="#">Discover the potential of your data</a>
+                    <a href="#portfolio">See my web projects</a>
                 </div>
             </div>
         </div>
     </div>
-    <!---------Services page Ends here -------------->
 
-
-    <!---------My work Portfolio page Beginss here -------------->
+    <!---------Portfolio-------------->
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png">
+                    <img src="images/work-1.png" alt="Phone showing a social media app home screen">
                     <div class="layer">
                         <h3>Social Media App</h3>
-                        <p>
-                            Harness the power of intuitive design and seamless user experiences to create a social media app that captivates and retains users. I'll leverage my expertise in front-end and back-end development, as well as my understanding of social media trends and user behavior, to deliver an app that not only looks stunning but also functions flawlessly across various platforms
-                        </p> 
-                        <a href="#">
-                             <i class="fa-solid fa-arrow-up-right-from-square">
-                             </i>
-                        </a>
+                        <p>An app concept focused on clear navigation and a smooth experience across devices, built with a front-end first approach.</p>
+                        <a href="#" aria-label="View Social Media App project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png">
-                    <div class="layer">
-                        <h3>Cash-r website</h3>
-                        <p>
-                            Building a greener future, one action at a time. We empower communities with residents, organizations, and experts to implement practical solutions for sustainable living and environmental resilience. From urban rainwater harvesting to thriving community gardens, we co-create customized solutions for a flourishing future. Join us in building resilient habitats for generations to come!
-                        </p> 
-                        <a href="#">
-                             <i class="fa-solid fa-arrow-up-right-from-square">
-                             </i>
-                        </a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-3.png">
+                    <img src="images/work-2.png" alt="Phone showing a music streaming app">
                     <div class="layer">
                         <h3>Music App</h3>
-                        <p>
-                            Unleash your inner audiophile with [Music App name]! Dive into curated playlists, personalized radio, and genre-spanning discovery. Experience pristine audio, craft custom playlists, and share your music love. It's more than an app, it's a sonic sanctuary.
-                        </p> 
-                        <a href="#">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        </a>
+                        <p>A music streaming interface with curated playlists, personalised recommendations and an easy-to-scan library.</p>
+                        <a href="#" aria-label="View Music App project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="Phone showing an online electronics store">
+                    <div class="layer">
+                        <h3>Online Store</h3>
+                        <p>A mobile-friendly storefront with product grids, clear pricing and a simple path to checkout.</p>
+                        <a href="#" aria-label="View Online Store project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="https://github.com/omotayo1963" class="btn" target="_blank" rel="noopener">See more on GitHub</a>
         </div>
     </div>
-    <!--------My work-Portfolio page Ends here -------------->
-    
-    <!---------Contact page Begins here -------------->
+
+    <!---------Contact-------------->
     <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p>
-                        <i class="fa-solid fa-paper-plane"></i>
-                        muizudeen97@gmail.com
-                    </p>
-                    <p><i class="fa-solid fa-square-phone"></i>+2349035346681</p>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:adeniyimuizudeen40@gmail.com">adeniyimuizudeen40@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i><a href="tel:+2349035346681">+234 903 534 6681</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i>Abuja, Nigeria</p>
                     <div class="social-icons">
-                        <a href="https://web.facebook.com/adeniyi.muizudeen.3/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://twitter.com/intranet_1963"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/adeniyi-muizudeen-724031155/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/omotayo1963"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://web.facebook.com/adeniyi.muizudeen.3/" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/intranet_1963" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/adeniyi-muizudeen-724031155/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/omotayo1963" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
                     </div>
-                    <a href="images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <textarea name="Message" rows="6" placeholder="Your message" required></textarea>
+                        <button type="submit" class="btn btn2">Send message</button>
                     </form>
-                    <span id="msg"></span>
+                    <span id="msg" role="status"></span>
                 </div>
-            </div>    
+            </div>
         </div>
         <div class="copyright">
-            <p>
-                Copyright  &copy; 2023 Codewithme 
-                <i class="fa-solid fa-heart"></i>
-            </p>
+            <p>Copyright &copy; 2026 CodeWithMe Tech <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
-    <!---------Contact page Ends here -------------->
-    
 
-    <!---------Javascript page Beginss here -------------->
-
-    <!---------Javascript page for the about section (active tab) -------------->
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
+        function opentab(tabname) {
+            for (var tablink of tablinks) tablink.classList.remove("active-link");
+            for (var tabcontent of tabcontents) tabcontent.classList.remove("active-tab");
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
-    </script>
-    <!---------Javascript page for the about section (active tab) end here----------->
 
-    <!---------Javascript for the phone view of the website (responsive)-------------->
-    <script>
-        var sidemeu = document.getElementById("sidemenu");
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() { sidemenu.style.right = "0"; }
+        function closemenu() { sidemenu.style.right = "-200px"; }
+        // Close the phone menu after tapping a link
+        sidemenu.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", closemenu); });
 
-        function openmenu (){
-            sidemeu.style.right = "0";
+        // Contact form -> Google Sheet (script from github.com/jamiewilson/form-to-google-sheets)
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzfscqrU9t-L29xpIuGo7D5iSSlLB4ELWudD7EcVQs6lW0LVeHwlBiw66zPSIX1cVrR/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        function showMsg(text, isError) {
+            msg.className = isError ? "error" : "";
+            msg.textContent = text;
+            setTimeout(function () { msg.textContent = ""; }, 5000);
         }
-        function closemenu (){
-            sidemeu.style.right = "-200px";
-        }
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(function () { showMsg("Message sent successfully", false); form.reset(); })
+                .catch(function () { showMsg("Message not sent. Please email me directly.", true); });
+        });
     </script>
-    <!---------Javascript for the phone view of the website ends here------------->
-
-
-
-    <!------Javascript for the contact form message should view on the google sheet also some feautures that tells more on when the contact submit form is clicked it should reset and show a message also the major script for this was gotten from (https://github.com/jamiewilson/form-to-google-sheets) -->
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzfscqrU9t-L29xpIuGo7D5iSSlLB4ELWudD7EcVQs6lW0LVeHwlBiw66zPSIX1cVrR/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent Successfully"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
-      <!------Javascript for the contact form on the google sheet ends here-->
 </body>
 </html>
